@@ -1,0 +1,37 @@
+# --- macOS Metadata ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Secrets & Keys ---
+id_rsa
+id_ed25519
+id_ed25519_work
+*.pem
+*.key
+.ssh/
+.gnupg/
+.netrc
+
+# --- Shell History & Local State ---
+.zsh_history
+.bash_history
+.python_history
+.node_repl_history
+.lesshst
+.zcompdump*
+.zsh_sessions/
+.viminfo
+
+# --- Plugin Managers & Caches ---
+.oh-my-zsh/
+.tmux/plugins/
+site-packages/
+__pycache__/
+*.cache
+
+# --- Temporary/Editor Files ---
+*.swp
+*.swo
+.netrwhist
+undo/
