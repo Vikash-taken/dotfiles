@@ -765,7 +765,9 @@ vim.lsp.config("lua_ls", {
 })
 vim.lsp.config("pyright", {})
 vim.lsp.config("bashls", {})
-vim.lsp.config("ts_ls", {})
+vim.lsp.config("ts_ls", {
+	filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+})
 vim.lsp.config("gopls", {})
 vim.lsp.config("clangd", {})
 
